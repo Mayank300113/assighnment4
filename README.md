@@ -31,6 +31,12 @@ print("Data successfully appended to Output.txt")
 
 Over here if the user wants to add some text to the existing file he/she can do it and then it print's: Data successfully appended to Output.txt 
 
+file=open("Output.txt","r")
+apl=file.read()
+print(apl)
+
+Finaly it reads out whatever that is written in the file: Output.txt
+
 
 
 
